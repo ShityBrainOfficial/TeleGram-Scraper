@@ -21,7 +21,7 @@ def banner():
 {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
-            version : 1.0
+            version : 3.1
         youtube.com/theunknon
         """)
 
@@ -112,8 +112,8 @@ for user in users:
 	        else:
 	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-	        print(gr+"[+] Waiting for 10-30 Seconds...")
-	        time.sleep(random.randrange(10, 30))
+	        print(gr+"[+] Waiting for 70-72 Seconds...")
+	        time.sleep(random.randrange(70, 72))
 	    except PeerFloodError:
 	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
 	    except UserPrivacyRestrictedError:
